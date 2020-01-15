@@ -1,0 +1,53 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+rotate{
+  transform: rotate(100deg);
+}
+
+body,h1,h2{font-family: "Raleway", sans-serif}
+
+body, html {height: 100%}
+
+p {line-height: 2}
+
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.bgimg {background-image: url("/w3images/wedding_couple.jpg")}
+
+.bgimg2 {background-image: url("/w3images/flowers.jpg")}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
